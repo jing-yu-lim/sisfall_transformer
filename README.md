@@ -1,28 +1,9 @@
-# Fall Detection System
+# Fall Detection With Transformer
 
-**Official Implementation of "[Comparative Study on Performance of ML Models for Fall Detection in Older People](https://doi.org/10.20944/preprints202312.2027.v1)"**
-
-## Introduction
-Fall detection among the elderly is a crucial issue in healthcare due to the high risk of injury and related complications. Falls are a leading cause of hospitalizations and long-term disabilities in older adults, making early and accurate detection vital for timely intervention. With advancements in wearable technology and machine learning, automated fall detection systems can help monitor and safeguard the elderly, offering both autonomy and security.
-
-The SisFall dataset was specifically developed to address this problem. It provides a rich source of sensor data, collected from accelerometers and gyroscopes, enabling the development of effective fall detection systems. Various machine learning algorithms can be trained on this dataset to distinguish between normal activities and falls, allowing for automated, real-time monitoring and response.
-
-## SisFall Dataset Overview
-The SisFall dataset is designed to support research in fall detection, with a particular focus on elderly individuals prone to falls. It includes both simulated fall events and normal activities recorded using wearable sensors, such as accelerometers and gyroscopes. These sensors are worn on the subjects' bodies to capture movement data, enabling researchers to analyze the distinct patterns associated with different activities.
-
-### Key Characteristics of the SisFall Dataset:
-
-1. **Sensor Data:** The dataset includes raw time-series data from accelerometers and gyroscopes that record the body’s motion and orientation. These sensors are typically worn at the waist, providing an optimal balance between detecting upper and lower body movements.
-
-2. **Falls and Activities:** The SisFall dataset contains data from a variety of simulated fall scenarios, such as:
-   * Forward falls
-   * Backward falls
-   * Sideways falls  
-   These events are simulated to represent the most common types of real-world falls in elderly individuals. Additionally, normal activities like walking, sitting, standing, and bending are included to help machine learning models differentiate between fall and non-fall actions.
-
-3. **Subjects:** The dataset includes data from both young and elderly participants, ensuring a diverse range of movement characteristics. This helps to generalize the models across different age groups and physical conditions, making them more applicable in real-world settings.
-
-4. **Sampling Rate:** The sensor data is collected at a high sampling rate, capturing detailed movement patterns. This enhances the accuracy of fall detection algorithms.
+This repository is built directly on top of the **Official Implementation of "[Comparative Study on Performance of ML Models for Fall Detection in Older People](https://doi.org/10.20944/preprints202312.2027.v1)"**
+- Link to the original repo: [Fall-Detection-System](https://github.com/mojtabaSefidi/Fall-Detection-System)
+## We explore the use of Transformer for Fall Detection. The results shows that Transformers beat all existing traditional and deep learning baselines in the original repository.
+![image](https://github.com/user-attachments/assets/dffadf7d-1a13-4201-81f3-11cfd94d91bc)
 
 ## How to Run
 
@@ -69,7 +50,7 @@ The SisFall dataset is designed to support research in fall detection, with a pa
 * **Output:** A data frame with detailed results.
 
 ### Citation
-For more details, you can read our publicly available paper:
+For more details, you can read the original publicly available paper:
 
 ```
 @article{EsfahaniFallDetection2023,
@@ -80,8 +61,3 @@ For more details, you can read our publicly available paper:
   doi={https://doi.org/10.20944/preprints202312.2027.v1}
 }
 ```
----
-
-Feel free to contact me for any questions or issues.
-
---- 
