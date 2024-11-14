@@ -69,7 +69,8 @@ class DatasetProcessor():
       return np.round(new_dataset.to_numpy(), 2)
 
   def __get_label(self, data_path):
-    label = data_path[54]
+    # label = data_path[54]
+    label = data_path[53]
     if label =='D':
       return int(0)
     elif label =='F':

@@ -4,6 +4,7 @@ from tensorflow import keras
 import seaborn as sn
 import pandas as pd
 import pickle
+import numpy as np
 sn.set()
 
 
@@ -156,4 +157,5 @@ def convert_report_df(report):
         else:
           temp[label] = metrics
       d[key] = temp
+
   return pd.DataFrame.from_dict(d).T.style.background_gradient(cmap="PuBu")

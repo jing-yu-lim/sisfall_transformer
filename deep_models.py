@@ -1,7 +1,7 @@
 from tensorflow import keras
 import tensorflow as tf
 from utils import *
-
+import numpy as np
 class Train_Evaluate_Deep():
 
   def __init__(self,

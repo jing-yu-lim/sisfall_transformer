@@ -2,6 +2,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from utils import *
 import numpy as np
 
+from sklearn.tree import DecisionTreeClassifier
 
 class Traditional_Models():
 
