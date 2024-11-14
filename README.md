@@ -1,9 +1,16 @@
-# Fall Detection With Transformer
+
 
 This repository is built directly on top of the **Official Implementation of "[Comparative Study on Performance of ML Models for Fall Detection in Older People](https://doi.org/10.20944/preprints202312.2027.v1)"**
 - Link to the original repo: [Fall-Detection-System](https://github.com/mojtabaSefidi/Fall-Detection-System)
-## We explore the use of Transformer for Fall Detection. The results shows that Transformers beat all existing traditional and deep learning baselines in the original repository.
+  
+# Fall Detection With Transformer
+- The results shows that Transformers beat all existing traditional and deep learning baselines in the original repository in terms of accuracy and f1 score.
 ![image](https://github.com/user-attachments/assets/dffadf7d-1a13-4201-81f3-11cfd94d91bc)
+- Moreover the Transformer is only has a fraction of the number of parameters with comparable training times.
+![image](https://github.com/user-attachments/assets/371f4928-4b00-4743-ab11-1a84839f6aa9)
+- The Transformer also converged withiin 1/2 epochs, which is much quicker than existing deep learning models (~ 5 epochs).
+![image](https://github.com/user-attachments/assets/d2ac78a0-7300-4664-8e13-62574d502e59)
+![image](https://github.com/user-attachments/assets/1ab4285e-f0ee-43da-86d8-858a6bf82b66)
 
 ## How to Run
 
